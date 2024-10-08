@@ -6,7 +6,7 @@
       "id": "@id",
       "type": "@type",
       "KYC": {
-        "@id": "",
+        "@id": "https://raw.githubusercontent.com/bhaagiKenpachi/privado-id-schema/blob/main/proof-of-kyc.jsonld#KYC",
         "@context": {
           "@propagate": true,
           "@protected": true,
@@ -15,19 +15,19 @@
           "vocab": "https://raw.githubusercontent.com/bhaagiKenpachi/privado-id-schema/blob/main/proof-of-kyc-vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "aadhar_number": {
-            "@id": "polygon-vocab:aadhar_number",
+            "@id": "vocab:aadhar_number",
             "@type": "xsd:string"
           },
           "gender": {
-            "@id": "polygon-vocab:gender",
+            "@id": "vocab:gender",
             "@type": "xsd:string"
           },
           "name": {
-            "@id": "polygon-vocab:name",
+            "@id": "vocab:name",
             "@type": "xsd:string"
           },
           "phone_number": {
-            "@id": "polygon-vocab:phone_number",
+            "@id": "vocab:phone_number",
             "@type": "xsd:double"
           }
         }
