@@ -12,7 +12,7 @@
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "vocab": "",
+          "vocab": "https://raw.githubusercontent.com/bhaagiKenpachi/privado-id-schema/blob/main/proof-of-kyc-vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "aadhar_number": {
             "@id": "polygon-vocab:aadhar_number",
