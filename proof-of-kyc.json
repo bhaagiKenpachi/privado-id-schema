@@ -4,7 +4,7 @@
   "$metadata": {
     "type": "KYC",
     "uris": {
-      "jsonLdContext": "",
+      "jsonLdContext": "https://raw.githubusercontent.com/bhaagiKenpachi/privado-id-schema/main/proof-of-kyc.jsonld",
       "jsonSchema": ""
     },
     "version": "1.0.0"
