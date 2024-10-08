@@ -5,7 +5,7 @@
     "type": "KYC",
     "uris": {
       "jsonLdContext": "https://raw.githubusercontent.com/bhaagiKenpachi/privado-id-schema/main/proof-of-kyc.jsonld",
-      "jsonSchema": ""
+      "jsonSchema": "https://raw.githubusercontent.com/bhaagiKenpachi/privado-id-schema/main/proof-of-kyc.json"
     },
     "version": "1.0.0"
   },
