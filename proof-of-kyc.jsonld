@@ -1,0 +1,37 @@
+{
+  "@context": [
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      "KYC": {
+        "@id": "",
+        "@context": {
+          "@propagate": true,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "aadhar_number": {
+            "@id": "polygon-vocab:aadhar_number",
+            "@type": "xsd:string"
+          },
+          "gender": {
+            "@id": "polygon-vocab:gender",
+            "@type": "xsd:string"
+          },
+          "name": {
+            "@id": "polygon-vocab:name",
+            "@type": "xsd:string"
+          },
+          "phone_number": {
+            "@id": "polygon-vocab:phone_number",
+            "@type": "xsd:double"
+          }
+        }
+      }
+    }
+  ]
+}
