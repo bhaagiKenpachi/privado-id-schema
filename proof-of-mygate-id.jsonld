@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      "MYGATEID_PASSCODE": {
+        "@id": "https://raw.githubusercontent.com/bhaagiKenpachi/privado-id-schema/blob/main/proof-of-mygate-ld.jsonld#MYGATEID_PASSCODE",
+        "@context": {
+          "@propagate": true,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/bhaagiKenpachi/privado-id-schema/blob/main/proof-of-mygate-vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "mygate_passcode": {
+            "@id": "vocab:passcode",
+            "@type": "xsd:double"
+          }
+        }
+      }
+    }
+  ]
+}
