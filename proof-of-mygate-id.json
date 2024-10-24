@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$metadata": {
+    "type": "MYGATEID_PASSCODE",
+    "uris": {
+      "jsonLdContext": "https://raw.githubusercontent.com/bhaagiKenpachi/privado-id-schema/main/proof-of-mygate-id.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/bhaagiKenpachi/privado-id-schema/main/proof-of-mygate-id.json"
+    },
+    "version": "1.0.0"
+  },
+  "required": [
+    "@context",
+    "id",
+    "issuanceDate",
+    "issuer",
+    "type",
+    "credentialSubject",
+    "credentialSchema"
+  ],
+  "description": "MyGate id passcode verification",
+  "title": "MyGate KYC",
+  "properties": {
+    "@context": {
+      "type": [
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "expirationDate": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "issuanceDate": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "issuer": {
+      "type": [
+        "string",
+        "object"
+      ],
+      "format": "uri",
+      "properties": {
+        "id": {
+          "format": "uri",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    "type": {
+      "type": [
+        "string",
+        "array"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "credentialSubject": {
+      "description": "Stores the data of the credential",
+      "title": "Credential subject",
+      "properties": {
+        "id": {
+          "description": "Stores the DID of the subject that owns the credential",
+          "title": "Credential subject ID",
+          "format": "uri",
+          "type": "string"
+        },
+        "mygate_passcode": {
+          "description": "unique number of mygate community user",
+          "title": "number",
+          "type": "number"
+        }
+      },
+      "required": [
+        "mygate_passcode"
+      ],
+      "type": "object"
+    },
+    "credentialSchema": {
+      "properties": {
+        "id": {
+          "format": "uri",
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "type"
+      ],
+      "type": "object"
+    }
+  }
+}
