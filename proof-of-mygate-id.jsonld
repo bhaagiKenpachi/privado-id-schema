@@ -15,7 +15,7 @@
           "vocab": "https://raw.githubusercontent.com/bhaagiKenpachi/privado-id-schema/blob/main/proof-of-mygate-id-vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "mygate_passcode": {
-            "@id": "vocab:passcode",
+            "@id": "vocab:mygate_passcode",
             "@type": "xsd:double"
           }
         }
