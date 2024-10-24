@@ -6,7 +6,7 @@
       "id": "@id",
       "type": "@type",
       "MYGATEID_PASSCODE": {
-        "@id": "https://raw.githubusercontent.com/bhaagiKenpachi/privado-id-schema/blob/main/proof-of-mygate-ld.jsonld#MYGATEID_PASSCODE",
+        "@id": "https://raw.githubusercontent.com/bhaagiKenpachi/privado-id-schema/blob/main/proof-of-mygate-id.jsonld#MYGATEID_PASSCODE",
         "@context": {
           "@propagate": true,
           "@protected": true,
